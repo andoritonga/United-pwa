@@ -1,0 +1,21 @@
+{
+    "name": "Manchester United Info PWA",
+    "short_name": "United Info PWA",
+    "description": "Info tentang Manchester United",
+    "start_url": "/index.html",
+    "display": "minimal-ui",
+    "background_color": "#DA020E",
+    "theme_color": "#DA020E",
+    "icons": [
+        {
+            "src":"mini-logo.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
