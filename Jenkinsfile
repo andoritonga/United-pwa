@@ -25,7 +25,7 @@ pipeline {
     }
     stage('Publish') {
       steps {
-        sh 'zip -r $ARTIFACT_NAME-$AWS_EB_APP_VERSION.zip ./ -x Jenkinsfile -x README.md -x pdaja-cms-app-eg-test-server-cms-*'
+        sh 'zip -r $ARTIFACT_NAME-$AWS_EB_APP_VERSION.zip ./ -x Jenkinsfile -x README.md -x united-pwa-ando-test-server-*'
       }
       post {
         success {
